@@ -1,22 +1,113 @@
 
-/* change text color, size and background. also center text */
-  h1 {
-    text-align: center;
-    color: DodgerBlue;
-    font-size: 40px;
-    background-color:Tomato
+/* set text color, size and background. Left align text */
+h1 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color:rgb(54, 129, 154);
+    width: 275px;
+    height: 50px;
+    text-align:left; 
+    display:inline;
+    font-family:'Lucida handwriting';
+    margin-left: 270px;
   }
 
-/* selector and center image */
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    height: 10%
+  h2{
+    font-family:'Lucida handwriting';
+    font-size: 15px;
+    font-style: normal;
+    color:#2c2195
   }
 
-  /* combinator */
-  ul > li {
-    border-style: solid;
+    /* styling navbar*/
+nav {
+  background-color: #fbebeb;
+  border-bottom: 1px solid #000000;
+  position: relative;
+  top: 0;
+  font-family:'Lucida handwriting';
+  font-size: 15px;
+  font-style: normal;
   }
+
+
+   /* styling navbar links*/
+a{
+  position: relative;
+  left: 450px;
+}
+
+/* background image for using HeroPatterns*/
+body {
+  background-color: #faddf0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='32' viewBox='0 0 16 32'%3E%3Cg fill='%23e8b6e1' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 24h4v2H0v-2zm0 4h6v2H0v-2zm0-8h2v2H0v-2zM0 0h4v2H0V0zm0 4h2v2H0V4zm16 20h-6v2h6v-2zm0 4H8v2h8v-2zm0-8h-4v2h4v-2zm0-20h-6v2h6V0zm0 4h-4v2h4V4zm-2 12h2v2h-2v-2zm0-8h2v2h-2V8zM2 8h10v2H2V8zm0 8h10v2H2v-2zm-2-4h14v2H0v-2zm4-8h6v2H4V4zm0 16h6v2H4v-2zM6 0h2v2H6V0zm0 24h2v2H6v-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+  /* add background color to footer*/
+footer {
+      position: fixed;
+      background: #838281;
+      border-top: 2px solid #240df6;
+      height: 30px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    } 
+
+.center{
+margin-left: 18px;
+}
+
+
+/*move contact section to right of page */
+#contact {
+  left: 20px;
+  width: 12%;
+  margin-left: 15px;
+  margin-right: 225px;
+  margin-top: 15px;
+  padding-right: 5px;
+  float: right;
+}
+
+/* move about section to left of page */
+#about {
+  right: 200px;
+  width: 50%;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-left: 150px;
+  float: center;
+  background-color: rgb(250, 241, 241);
+  }
+
+
+/* styling aside  */
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  float: right;
+  font-style: italic;
+  background-color: rgb(250, 241, 241);
+}
+
+small{
+  color: white;
+  text-align:center;
+}
+
+p{
+  text-align: justify;
+  color: rgb(58, 55, 55);
+  font-style: normal;
+  line-height: 20pt;
+}
+
+img{
+  float: left; 
+  margin: 5px;
+}
